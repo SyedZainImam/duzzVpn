@@ -1,0 +1,32 @@
+# By Syed Zain Imam
+name: vpn_basic_project
+description: Flutter Android VPN based on OpenVPN Library.
+publish_to: 'none'
+
+# App Version
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+# App dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6 
+  cupertino_icons: ^1.0.0
+# DEv Dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  # Enabling material design
+  uses-material-design: true
+
+  # App assets
+  assets:
+    - assets/
+    - assets/vpn/
+    - assets/images/
